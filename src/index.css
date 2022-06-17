@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@font-face {
+  font-family: "rubik";
+  src: local("rubik"), url("./fonts/Rubik-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "opensans";
+  src: local("opensans"), url("./fonts/OpenSans-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "roboto";
+  src: local("roboto"), url("./fonts/Roboto-Light.ttf") format("truetype");
+  font-weight: regular;
+}
+/*@font-face {
+  font-family: "montserrat";
+  src: local("montserrat"),
+    url("./fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight: regular;
+}*/
+@font-face {
+  font-family: "sansman";
+  src: local("sansman"),
+    url("./fonts/enter-sansman.bold.ttf") format("truetype");
+  font-weight: bold;
+}

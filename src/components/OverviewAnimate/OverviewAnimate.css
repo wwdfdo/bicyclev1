@@ -1,0 +1,41 @@
+.box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 180%;
+  background: linear-gradient(#eb1712, #fffe00);
+  animation: animate 4s linear infinite;
+}
+
+.box::after {
+  content: "";
+  position: absolute;
+  inset: 4px;
+  background: #000;
+  border-radius: 16px;
+}
+
+@keyframes animate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.box h2 {
+  color: #ffffff;
+  font-size: 10em;
+  position: relative;
+  z-index: 10;
+}

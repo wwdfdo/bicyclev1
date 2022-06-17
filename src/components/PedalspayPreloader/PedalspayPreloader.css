@@ -1,0 +1,14 @@
+#preloader {
+  background: #fff url(../../images/biking.gif) no-repeat center center;
+
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+@media screen and (max-width: 768px) {
+  #preloader {
+    background-size: 50%;
+  }
+}
